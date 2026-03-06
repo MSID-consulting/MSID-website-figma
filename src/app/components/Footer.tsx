@@ -1,4 +1,5 @@
 import { Database, Linkedin, Twitter, Mail, Phone } from "lucide-react";
+import MSIDLogo from "/src/assets/MSIDlogo.png";
 
 export function Footer() {
   return (
@@ -7,7 +8,7 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Database className="size-8 text-blue-500" />
+              <img src={MSIDLogo} alt="MSID Logo" className="h-12 w-auto object-contain" />
               <span className="text-xl font-semibold text-white">PT. Mitra Solusi Integrasi Data</span>
             </div>
             <p className="text-sm">
