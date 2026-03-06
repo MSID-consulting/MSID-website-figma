@@ -7,10 +7,10 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* GRID */}
-        <div className="grid md:grid-cols-12 gap-10 mb-12">
+        <div className="grid md:grid-cols-12 gap-x-12 gap-y-10 mb-12">
 
           {/* COMPANY */}
-          <div className="md:col-span-5 space-y-4">
+          <div className="md:col-span-4 space-y-4">
             <div className="flex items-center gap-3">
               <img
                 src={MSIDLogo}
@@ -22,7 +22,7 @@ export function Footer() {
               </span>
             </div>
 
-            <p className="text-sm text-gray-400 max-w-md">
+            <p className="text-sm text-gray-400 max-w-sm">
               Transforming businesses through unified data solutions and
               intelligent analytics.
             </p>
@@ -96,7 +96,7 @@ export function Footer() {
           </div>
 
           {/* PRODUCTS */}
-          <div className="md:col-span-3">
+          <div className="md:col-span-4">
             <h3 className="text-white font-semibold mb-4">Products</h3>
 
             <ul className="space-y-2 text-sm columns-2">
