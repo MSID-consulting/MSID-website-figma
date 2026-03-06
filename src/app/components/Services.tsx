@@ -5,6 +5,13 @@ import dynamicsAXLogo from "/src/assets/cb0976ffcb9214f15d1154f0c11bc357f5bbe1cd
 import odooLogo from "/src/assets/246017ef84bb76cf64cc2e3f452171c188e77af1.png";
 import sapLogo from "/src/assets/9277a50a7a4f73146c0d1d240d905f838b26437a.png";
 import dynamicsNAVLogo from "/src/assets/320af2d1a670315d33e14b86486a6f2360bb809e.png";
+import PBILogo from "/src/assets/PBI.png";
+import postgreSQLLogo from "/src/asset/PostgreSQL.png";
+import SQLLogo from "/src/assets/SQL.png";
+import supersetLogo from "/src/assets/Superset.png";
+import d365bcLogo from "/src/assets/d365bc.png";
+import n8nLogo from "/src/assets/n8n.png";
+import fabricLogo from "/src/assets/fabric.png";
 
 export function Services() {
   return (
@@ -48,19 +55,19 @@ export function Services() {
               <p className="text-sm font-semibold text-gray-900 mb-3">Powered by:</p>
               <div className="space-y-2">
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={odooLogo} alt="Microsoft SQL Server" className="h-6 object-contain" />
+                  <img src={SQLLogo} alt="Microsoft SQL Server" className="h-6 object-contain" />
                   <span className="text-gray-900 font-medium">Microsoft SQL Server</span>
                 </div>
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={d365Logo} alt="PostgreSQL" className="h-6 object-contain" />
+                  <img src={postgreSQLLogo} alt="PostgreSQL" className="h-6 object-contain" />
                   <span className="text-gray-900 font-medium">PostgreSQL</span>
                 </div>
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={d365Logo} alt="Microsoft Fabric" className="h-6 object-contain" />
+                  <img src={fabricLogo} alt="Microsoft Fabric" className="h-6 object-contain" />
                   <span className="text-gray-900 font-medium">Microsoft Fabric</span>
                 </div>
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={d365Logo} alt="n8n" className="h-6 object-contain" />
+                  <img src={n8nLogo} alt="n8n" className="h-6 object-contain" />
                   <span className="text-gray-900 font-medium">n8n</span>
                 </div>                
               </div>
@@ -97,11 +104,11 @@ export function Services() {
               <p className="text-sm font-semibold text-gray-900 mb-3">Products We Support:</p>
               <div className="space-y-2">
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={odooLogo} alt="Power BI" className="h-6 object-contain" />
+                  <img src={PBILogo} alt="Power BI" className="h-6 object-contain" />
                   <span className="text-gray-900 font-medium">Power BI</span>
                 </div>
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={d365Logo} alt="Apache Superset" className="h-6 object-contain" />
+                  <img src={supersetLogo} alt="Apache Superset" className="h-6 object-contain" />
                   <span className="text-gray-900 font-medium">Apache Superset</span>
                 </div>
               </div>
@@ -144,6 +151,10 @@ export function Services() {
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
                   <img src={d365Logo} alt="Microsoft Dynamics 365" className="h-6 object-contain" />
                   <span className="text-gray-900 font-medium">Microsoft D365 Finance & Operation</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={d365bcLogo} alt="Microsoft Dynamics 365 BC" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft D365 Business Central</span>
                 </div>
               </div>
             </div>
@@ -193,6 +204,10 @@ export function Services() {
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
                   <img src={d365Logo} alt="Microsoft Dynamics 365" className="h-6 object-contain" />
                   <span className="text-gray-900 font-medium">Microsoft D365 Finance & Operation</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={d365bcLogo} alt="Microsoft Dynamics 365" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft D365 Business Central</span>
                 </div>
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
                   <img src={sapLogo} alt="SAP S/4HANA" className="h-6 object-contain" />

@@ -68,6 +68,7 @@ export function Footer() {
               <li>Microsoft Dynamics AX</li>
               <li>Microsoft Dynamics NAV</li>
               <li>Microsoft D365 F&O</li>
+              <li>Microsoft D365 BC</li>
               <li>SAP S/4HANA</li>
             </ul>
           </div>
