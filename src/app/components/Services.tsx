@@ -1,10 +1,10 @@
 import { Database, TrendingUp, Zap, BarChart3, Settings, Headphones } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import d365Logo from "figma:asset/6d6f91c42939dd0eea152aabaf4f47f2a64b832a.png";
-import dynamicsAXLogo from "figma:asset/cb0976ffcb9214f15d1154f0c11bc357f5bbe1cd.png";
-import odooLogo from "figma:asset/246017ef84bb76cf64cc2e3f452171c188e77af1.png";
-import sapLogo from "figma:asset/9277a50a7a4f73146c0d1d240d905f838b26437a.png";
-import dynamicsNAVLogo from "figma:asset/320af2d1a670315d33e14b86486a6f2360bb809e.png";
+import d365Logo from "/src/assets/6d6f91c42939dd0eea152aabaf4f47f2a64b832a.png";
+import dynamicsAXLogo from "/src/assets/cb0976ffcb9214f15d1154f0c11bc357f5bbe1cd.png";
+import odooLogo from "/src/assets/246017ef84bb76cf64cc2e3f452171c188e77af1.png";
+import sapLogo from "/src/assets/9277a50a7a4f73146c0d1d240d905f838b26437a.png";
+import dynamicsNAVLogo from "/src/assets/320af2d1a670315d33e14b86486a6f2360bb809e.png";
 
 export function Services() {
   return (
