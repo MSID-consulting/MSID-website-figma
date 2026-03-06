@@ -58,6 +58,12 @@ export function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Products</h3>
             <ul className="space-y-2 text-sm">
+              <li>Microsoft SQL Server</li>
+              <li>PostgreSQL</li>
+              <li>n8n</li>
+              <li>Microsoft Fabric</li>
+              <li>PowerBI</li>
+              <li>Apache Superset</li>
               <li>Odoo</li>
               <li>Microsoft Dynamics AX</li>
               <li>Microsoft Dynamics NAV</li>

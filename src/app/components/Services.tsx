@@ -44,6 +44,27 @@ export function Services() {
                 <span className="text-gray-700">Enhanced data quality and consistency</span>
               </li>
             </ul>
+            <div className="border-t border-blue-200 pt-4">
+              <p className="text-sm font-semibold text-gray-900 mb-3">Powered by:</p>
+              <div className="space-y-2">
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={odooLogo} alt="Microsoft SQL Server" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft SQL Server</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={d365Logo} alt="PostgreSQL" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">PostgreSQL</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={d365Logo} alt="Microsoft Fabric" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft Fabric</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={d365Logo} alt="n8n" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">n8n</span>
+                </div>                
+              </div>
+            </div>
           </div>
 
           {/* Service 2 */}
@@ -72,6 +93,19 @@ export function Services() {
                 <span className="text-gray-700">Custom reporting for all organizational levels</span>
               </li>
             </ul>
+            <div className="border-t border-purple-200 pt-4">
+              <p className="text-sm font-semibold text-gray-900 mb-3">Products We Support:</p>
+              <div className="space-y-2">
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={odooLogo} alt="Power BI" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Power BI</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={d365Logo} alt="Apache Superset" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Apache Superset</span>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Service 3 - ERP Implementation */}
