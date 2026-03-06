@@ -6,7 +6,7 @@ import odooLogo from "/src/assets/246017ef84bb76cf64cc2e3f452171c188e77af1.png";
 import sapLogo from "/src/assets/9277a50a7a4f73146c0d1d240d905f838b26437a.png";
 import dynamicsNAVLogo from "/src/assets/320af2d1a670315d33e14b86486a6f2360bb809e.png";
 import PBILogo from "/src/assets/PBI.png";
-import postgreSQLLogo from "/src/asset/PostgreSQL.png";
+import postgreSQLLogo from "/src/assets/PostgreSQL.png";
 import SQLLogo from "/src/assets/SQL.png";
 import supersetLogo from "/src/assets/Superset.png";
 import d365bcLogo from "/src/assets/d365bc.png";
