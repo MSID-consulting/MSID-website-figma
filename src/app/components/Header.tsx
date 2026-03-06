@@ -1,5 +1,3 @@
-import { Database } from "lucide-react";
-
 export function Header() {
   const scrollToContact = () => {
     document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
@@ -10,8 +8,8 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <Database className="size-8 text-blue-600" />
-            <span className="text-xl font-semibold text-gray-900">PT. Mitra Solusi Integrasi Data</span>
+              <img src="/src/assets/MSIDlogo.png" alt="MSID Logo" className="h-8 w-auto" />
+              <span className="text-xl font-semibold text-gray-900">PT. Mitra Solusi Integrasi Data</span>
           </div>
           <nav className="hidden md:flex items-center gap-8">
             <a href="#services" className="text-gray-600 hover:text-gray-900 transition-colors">
