@@ -1,4 +1,4 @@
-import MSIDLogo from "/src/assets/MSIDLogo.png";
+import MSIDLogo from "/src/assets/MSIDlogo.png";
 
 export function Header() {
   const scrollToContact = () => {
