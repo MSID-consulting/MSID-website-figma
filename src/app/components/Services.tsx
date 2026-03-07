@@ -37,7 +37,7 @@ export function Services() {
               Consolidate scattered data across multiple systems into a unified, high-performance data warehouse. 
               We design and implement scalable solutions that bring all your data together in one secure location.
             </p>
-            <ul className="space-y-3">
+            <ul className="space-y-3 mb-6">
               <li className="flex items-start gap-3">
                 <Zap className="size-5 text-blue-600 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-700">Unified data integration from disparate sources</span>
@@ -86,7 +86,7 @@ export function Services() {
               Transform your data warehouse into actionable insights with custom BI solutions. 
               Empower management and operations with real-time dashboards and analytics for data-driven decision making.
             </p>
-            <ul className="space-y-3">
+            <ul className="space-y-3 mb-6">
               <li className="flex items-start gap-3">
                 <TrendingUp className="size-5 text-purple-600 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-700">Interactive dashboards and visualizations</span>
