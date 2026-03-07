@@ -52,7 +52,7 @@ export function Services() {
               </li>
             </ul>
             <div className="border-t border-blue-200 pt-4">
-              <p className="text-sm font-semibold text-gray-900 mb-3">Powered by:</p>
+              
               <div className="space-y-2">
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
                   <img src={SQLLogo} alt="Microsoft SQL Server" className="h-6 object-contain" />
@@ -101,7 +101,7 @@ export function Services() {
               </li>
             </ul>
             <div className="border-t border-purple-200 pt-4">
-              <p className="text-sm font-semibold text-gray-900 mb-3">Products We Support:</p>
+              
               <div className="space-y-2">
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
                   <img src={PBILogo} alt="Power BI" className="h-6 object-contain" />
@@ -142,7 +142,7 @@ export function Services() {
               </li>
             </ul>
             <div className="border-t border-green-200 pt-4">
-              <p className="text-sm font-semibold text-gray-900 mb-3">Products We Support:</p>
+              
               <div className="space-y-2">
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
                   <img src={odooLogo} alt="Odoo" className="h-6 object-contain" />
@@ -187,7 +187,7 @@ export function Services() {
               </li>
             </ul>
             <div className="border-t border-orange-200 pt-4">
-              <p className="text-sm font-semibold text-gray-900 mb-3">Products We Support:</p>
+              
               <div className="space-y-2">
                 <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
                   <img src={odooLogo} alt="Odoo" className="h-6 object-contain" />
