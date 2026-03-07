@@ -34,7 +34,7 @@ export function Services() {
               Data Warehouse Development
             </h3>
             <p className="text-gray-700 mb-6">
-              Consolidate scattered data across multiple systems into a unified, high-performance data warehouse. 
+              Consolidate scattered data across multiple systems into a unified, high-performance data warehouse.
               We design and implement scalable solutions that bring all your data together in one secure location.
             </p>
             <ul className="space-y-3">
@@ -51,8 +51,6 @@ export function Services() {
                 <span className="text-gray-700">Enhanced data quality and consistency</span>
               </li>
             </ul>
-           
-            </div>
           </div>
 
           {/* Service 2 */}
@@ -64,7 +62,7 @@ export function Services() {
               Business Intelligence Solutions
             </h3>
             <p className="text-gray-700 mb-6">
-              Transform your data warehouse into actionable insights with custom BI solutions. 
+              Transform your data warehouse into actionable insights with custom BI solutions.
               Empower management and operations with real-time dashboards and analytics for data-driven decision making.
             </p>
             <ul className="space-y-3">
@@ -81,7 +79,6 @@ export function Services() {
                 <span className="text-gray-700">Custom reporting for all organizational levels</span>
               </li>
             </ul>
-            
           </div>
 
           {/* Service 3 - ERP Implementation */}
@@ -93,7 +90,7 @@ export function Services() {
               ERP Implementation
             </h3>
             <p className="text-gray-700 mb-6">
-              Using best practice methodology, we guide you from blueprint to GO LIVE. 
+              Using best practice methodology, we guide you from blueprint to GO LIVE.
               Our structured approach ensures successful ERP deployment tailored to your business needs.
             </p>
             <ul className="space-y-3 mb-6">
@@ -110,7 +107,6 @@ export function Services() {
                 <span className="text-gray-700">Training and change management support</span>
               </li>
             </ul>
-            
           </div>
 
           {/* Service 4 - ERP Support */}
@@ -122,7 +118,7 @@ export function Services() {
               ERP Support & Enhancement
             </h3>
             <p className="text-gray-700 mb-6">
-              Provide ongoing support for implemented ERP systems and deliver custom enhancements 
+              Provide ongoing support for implemented ERP systems and deliver custom enhancements
               to fulfill specific business process requirements.
             </p>
             <ul className="space-y-3 mb-6">
@@ -139,7 +135,6 @@ export function Services() {
                 <span className="text-gray-700">Issue resolution and troubleshooting</span>
               </li>
             </ul>
-            
           </div>
         </div>
 
@@ -155,11 +150,11 @@ export function Services() {
               End-to-End Data Solutions
             </h3>
             <p className="text-gray-700 mb-4">
-              From initial data assessment to full-scale implementation, we guide you through every step 
+              From initial data assessment to full-scale implementation, we guide you through every step
               of your data transformation journey.
             </p>
             <p className="text-gray-700">
-              Our proven methodology ensures seamless integration, minimal disruption, and maximum ROI 
+              Our proven methodology ensures seamless integration, minimal disruption, and maximum ROI
               for your data infrastructure investments.
             </p>
           </div>
