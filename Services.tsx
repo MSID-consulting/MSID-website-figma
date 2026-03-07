@@ -159,7 +159,7 @@ export function Services() {
             </p>
           </div>
         </div>
-      </div>
+      
     </section>
   );
 }
