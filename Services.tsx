@@ -34,7 +34,7 @@ export function Services() {
               Data Warehouse Development
             </h3>
             <p className="text-gray-700 mb-6">
-              Consolidate scattered data across multiple systems into a unified, high-performance data warehouse.
+              Consolidate scattered data across multiple systems into a unified, high-performance data warehouse. 
               We design and implement scalable solutions that bring all your data together in one secure location.
             </p>
             <ul className="space-y-3">
@@ -51,6 +51,27 @@ export function Services() {
                 <span className="text-gray-700">Enhanced data quality and consistency</span>
               </li>
             </ul>
+            <div className="border-t border-blue-200 pt-4">
+              <p className="text-sm font-semibold text-gray-900 mb-3">Powered by:</p>
+              <div className="space-y-2">
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={SQLLogo} alt="Microsoft SQL Server" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft SQL Server</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={postgreSQLLogo} alt="PostgreSQL" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">PostgreSQL</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={fabricLogo} alt="Microsoft Fabric" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft Fabric</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={n8nLogo} alt="n8n" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">n8n</span>
+                </div>                
+              </div>
+            </div>
           </div>
 
           {/* Service 2 */}
@@ -62,7 +83,7 @@ export function Services() {
               Business Intelligence Solutions
             </h3>
             <p className="text-gray-700 mb-6">
-              Transform your data warehouse into actionable insights with custom BI solutions.
+              Transform your data warehouse into actionable insights with custom BI solutions. 
               Empower management and operations with real-time dashboards and analytics for data-driven decision making.
             </p>
             <ul className="space-y-3">
@@ -79,6 +100,19 @@ export function Services() {
                 <span className="text-gray-700">Custom reporting for all organizational levels</span>
               </li>
             </ul>
+            <div className="border-t border-purple-200 pt-4">
+              <p className="text-sm font-semibold text-gray-900 mb-3">Products We Support:</p>
+              <div className="space-y-2">
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={PBILogo} alt="Power BI" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Power BI</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={supersetLogo} alt="Apache Superset" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Apache Superset</span>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Service 3 - ERP Implementation */}
@@ -90,7 +124,7 @@ export function Services() {
               ERP Implementation
             </h3>
             <p className="text-gray-700 mb-6">
-              Using best practice methodology, we guide you from blueprint to GO LIVE.
+              Using best practice methodology, we guide you from blueprint to GO LIVE. 
               Our structured approach ensures successful ERP deployment tailored to your business needs.
             </p>
             <ul className="space-y-3 mb-6">
@@ -107,6 +141,23 @@ export function Services() {
                 <span className="text-gray-700">Training and change management support</span>
               </li>
             </ul>
+            <div className="border-t border-green-200 pt-4">
+              <p className="text-sm font-semibold text-gray-900 mb-3">Products We Support:</p>
+              <div className="space-y-2">
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={odooLogo} alt="Odoo" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Odoo</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={d365Logo} alt="Microsoft Dynamics 365" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft D365 Finance & Operation</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={d365bcLogo} alt="Microsoft Dynamics 365 BC" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft D365 Business Central</span>
+                </div>
+              </div>
+            </div>
           </div>
 
           {/* Service 4 - ERP Support */}
@@ -118,7 +169,7 @@ export function Services() {
               ERP Support & Enhancement
             </h3>
             <p className="text-gray-700 mb-6">
-              Provide ongoing support for implemented ERP systems and deliver custom enhancements
+              Provide ongoing support for implemented ERP systems and deliver custom enhancements 
               to fulfill specific business process requirements.
             </p>
             <ul className="space-y-3 mb-6">
@@ -135,6 +186,35 @@ export function Services() {
                 <span className="text-gray-700">Issue resolution and troubleshooting</span>
               </li>
             </ul>
+            <div className="border-t border-orange-200 pt-4">
+              <p className="text-sm font-semibold text-gray-900 mb-3">Products We Support:</p>
+              <div className="space-y-2">
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={odooLogo} alt="Odoo" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Odoo</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={dynamicsAXLogo} alt="Microsoft Dynamics AX" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft Dynamics AX (all version)</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={dynamicsNAVLogo} alt="Microsoft Dynamics NAV" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft Dynamics NAV</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={d365Logo} alt="Microsoft Dynamics 365" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft D365 Finance & Operation</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={d365bcLogo} alt="Microsoft Dynamics 365" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">Microsoft D365 Business Central</span>
+                </div>
+                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
+                  <img src={sapLogo} alt="SAP S/4HANA" className="h-6 object-contain" />
+                  <span className="text-gray-900 font-medium">SAP S/4HANA</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -150,16 +230,16 @@ export function Services() {
               End-to-End Data Solutions
             </h3>
             <p className="text-gray-700 mb-4">
-              From initial data assessment to full-scale implementation, we guide you through every step
+              From initial data assessment to full-scale implementation, we guide you through every step 
               of your data transformation journey.
             </p>
             <p className="text-gray-700">
-              Our proven methodology ensures seamless integration, minimal disruption, and maximum ROI
+              Our proven methodology ensures seamless integration, minimal disruption, and maximum ROI 
               for your data infrastructure investments.
             </p>
           </div>
         </div>
-      
+      </div>
     </section>
   );
 }
