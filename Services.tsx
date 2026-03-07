@@ -5,6 +5,13 @@ import dynamicsAXLogo from "/src/assets/cb0976ffcb9214f15d1154f0c11bc357f5bbe1cd
 import odooLogo from "/src/assets/246017ef84bb76cf64cc2e3f452171c188e77af1.png";
 import sapLogo from "/src/assets/9277a50a7a4f73146c0d1d240d905f838b26437a.png";
 import dynamicsNAVLogo from "/src/assets/320af2d1a670315d33e14b86486a6f2360bb809e.png";
+import PBILogo from "/src/assets/PBI.png";
+import postgreSQLLogo from "/src/assets/PostgreSQL.png";
+import SQLLogo from "/src/assets/SQL.png";
+import supersetLogo from "/src/assets/Superset.png";
+import d365bcLogo from "/src/assets/d365bc.png";
+import n8nLogo from "/src/assets/n8n.png";
+import fabricLogo from "/src/assets/fabric.png";
 
 export function Services() {
   return (
@@ -44,27 +51,8 @@ export function Services() {
                 <span className="text-gray-700">Enhanced data quality and consistency</span>
               </li>
             </ul>
-            <div className="border-t border-blue-200 pt-4">
-              <p className="text-sm font-semibold text-gray-900 mb-3">Powered by:</p>
-              <div className="space-y-2">
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={odooLogo} alt="Microsoft SQL Server" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">Microsoft SQL Server</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={d365Logo} alt="PostgreSQL" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">PostgreSQL</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={d365Logo} alt="Microsoft Fabric" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">Microsoft Fabric</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={d365Logo} alt="n8n" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">n8n</span>
-                </div>                
-              </div>
-            </div>
+           
+            
           </div>
 
           {/* Service 2 */}
@@ -93,19 +81,7 @@ export function Services() {
                 <span className="text-gray-700">Custom reporting for all organizational levels</span>
               </li>
             </ul>
-            <div className="border-t border-purple-200 pt-4">
-              <p className="text-sm font-semibold text-gray-900 mb-3">Products We Support:</p>
-              <div className="space-y-2">
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={odooLogo} alt="Power BI" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">Power BI</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={d365Logo} alt="Apache Superset" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">Apache Superset</span>
-                </div>
-              </div>
-            </div>
+            
           </div>
 
           {/* Service 3 - ERP Implementation */}
@@ -134,19 +110,7 @@ export function Services() {
                 <span className="text-gray-700">Training and change management support</span>
               </li>
             </ul>
-            <div className="border-t border-green-200 pt-4">
-              <p className="text-sm font-semibold text-gray-900 mb-3">Products We Support:</p>
-              <div className="space-y-2">
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={odooLogo} alt="Odoo" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">Odoo</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={d365Logo} alt="Microsoft Dynamics 365" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">Microsoft D365 Finance & Operation</span>
-                </div>
-              </div>
-            </div>
+            
           </div>
 
           {/* Service 4 - ERP Support */}
@@ -175,31 +139,7 @@ export function Services() {
                 <span className="text-gray-700">Issue resolution and troubleshooting</span>
               </li>
             </ul>
-            <div className="border-t border-orange-200 pt-4">
-              <p className="text-sm font-semibold text-gray-900 mb-3">Products We Support:</p>
-              <div className="space-y-2">
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={odooLogo} alt="Odoo" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">Odoo</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={dynamicsAXLogo} alt="Microsoft Dynamics AX" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">Microsoft Dynamics AX (all version)</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={dynamicsNAVLogo} alt="Microsoft Dynamics NAV" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">Microsoft Dynamics NAV</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={d365Logo} alt="Microsoft Dynamics 365" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">Microsoft D365 Finance & Operation</span>
-                </div>
-                <div className="flex items-center gap-3 bg-white rounded-lg px-3 py-2">
-                  <img src={sapLogo} alt="SAP S/4HANA" className="h-6 object-contain" />
-                  <span className="text-gray-900 font-medium">SAP S/4HANA</span>
-                </div>
-              </div>
-            </div>
+            
           </div>
         </div>
 
