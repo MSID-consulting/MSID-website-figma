@@ -47,11 +47,11 @@ export function PoweredBy() {
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-white to-transparent z-10" />
 
         {/* Scrolling container */}
-        <div className="flex animate-scroll">
+        <div className="scroll-track">
           {duplicatedProducts.map((product, index) => (
             <div
               key={index}
-              className="flex-shrink-0 mx-8 flex items-center justify-center"
+              className="flex-shrink-0 mx-10 flex items-center justify-center"
               style={{ width: "200px", height: "120px" }}
             >
               <img
@@ -65,22 +65,25 @@ export function PoweredBy() {
       </div>
 
       <style>{`
-        @keyframes scroll {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
+      @keyframes scroll {
+        0% {
+          transform: translateX(0);
         }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
 
-        .animate-scroll {
-          animation: scroll 30s linear infinite;
-        }
+      .scroll-track {
+        display: flex;
+        width: max-content;
+        animation: scroll 40s linear infinite;
+        will-change: transform;
+      }
 
-        .animate-scroll:hover {
-          animation-play-state: paused;
-        }
+      .scroll-track:hover {
+        animation-play-state: paused;
+      }
       `}</style>
     </section>
   );
