@@ -1,6 +1,7 @@
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Services } from "./components/Services";
+import { PoweredBy } from "./components/PoweredBy";
 import { Benefits } from "./components/Benefits";
 import { CTA } from "./components/CTA";
 import { ContactForm } from "./components/ContactForm";
@@ -12,6 +13,7 @@ export default function App() {
       <Header />
       <Hero />
       <Services />
+      <PoweredBy />
       <Benefits />
       <CTA />
       <ContactForm />
